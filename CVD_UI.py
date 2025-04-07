@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open('boost_model_102.pkl', 'rb') as f:
+with open('boost_model_CVD.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open('scalar_CVD_102.pkl', 'rb') as f:
