@@ -2,8 +2,11 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model = pickle.load(open(r'boost_model_102.pkl', 'rb'))
-scaler = pickle.load(open(r'scalar_CVD_102.pkl', 'rb'))
+with open('boost_model_102.pkl', 'wb') as f:
+    pickle.dump(model, f)
+
+with open('scalar_CVD_102.pkl', 'wb') as f:
+    pickle.dump(scaler, f)
 
 def predict_cardio_disease(age, gender, height, weight, ap_hi, cholesterol, gluc, smoke, alco, active):
     input_data = {
