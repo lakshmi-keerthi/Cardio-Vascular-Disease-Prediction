@@ -2,6 +2,8 @@
 
 This project uses machine learning algorithms to predict the likelihood of cardiovascular disease (CVD) based on patient medical and lifestyle data. With cardiovascular diseases being a leading cause of mortality globally, the objective is to assist in early detection through data-driven techniques.
 
+https://cvduipy-munbl6pydqrfsgleoogwxt.streamlit.app/
+
 ![Sample Response](https://github.com/user-attachments/assets/331faa4f-f810-4c5e-baaa-a4ac3c16de18)  
 ![Sample Response](https://github.com/user-attachments/assets/91627c99-2bab-418e-aa5e-bda93cb8fb56)
 
