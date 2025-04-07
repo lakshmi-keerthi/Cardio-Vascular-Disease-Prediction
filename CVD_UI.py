@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 with open('boost_model_joblib.pkl', 'rb') as f:
     model = joblib.load(f)
